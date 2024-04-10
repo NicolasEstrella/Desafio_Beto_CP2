@@ -8,6 +8,8 @@ void main(List<String> args) {
     "Sandra Silva|40|Desenvolvedor|MG",
     "Regina Verne|35|Dentista|MG",
     "João Rahman|55|Jornalista|RJ",
+    "Nicolas Estrella|20|Desenvolvedor|SP",
+    "Henrique Copatti|20|Dentista|SP",
   ];
 
   var nomes = [];
@@ -15,7 +17,6 @@ void main(List<String> args) {
   var profissoes = [];
   var estados = [];
 
-  //Exercício 1 do desafio
   for (var paciente in pacientes) {
     var infoPacientes = paciente.split("|");
     nomes.add(infoPacientes[0]);
@@ -24,7 +25,7 @@ void main(List<String> args) {
     estados.add(infoPacientes[3]);
   }
 
-  print("************ DESAFIO DE DART ************\n\n");
+  print("************** DESAFIO DE DART **************\n\n");
 
   print("O primeiro exercício está feito no código e não exije um output\n");
 
